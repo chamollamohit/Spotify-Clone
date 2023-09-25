@@ -15,6 +15,7 @@ body {
     width: 340px;
     background-color: black;
     border-radius: 1rem; /*16px*/
+    margin-right: 0.7rem;
 }
 
 .main-content {
@@ -76,6 +77,8 @@ a {
     border-radius: 0.5rem;
     height: 100%;
     padding: 0.5rem 0.75rem;
+    margin-bottom: 15rem;
+    overflow: auto;
 }
 
 .options {
@@ -157,3 +160,101 @@ a {
     outline: none;
 }
 
+
+.bantaiz, .arijit {
+    line-height: 2.5rem;
+    padding: 0.5rem 0.75rem;
+    display: flex;
+    align-items: center;
+}
+
+.bantaiz:hover ,.arijit:hover {
+    background-color: #232323;
+    border-radius: 5px;
+}
+
+.bantaiz img, .arijit img {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.bantaiz p, .arijit p {
+    line-height: 1.5rem;
+    padding: 0.5rem 0.75rem;
+    padding-left: 0.7rem;
+    margin: 0px;
+}
+
+.backward-btn {
+    border-radius: 50%;
+    margin: 1rem;
+    background-color: #02111b;
+    border: none;
+    font-size: 1.5rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+.forward-btn {
+    border-radius: 50%;
+    margin: 1rem 0px;
+    background-color: #02111b;
+    border: none;
+    font-size: 1.5rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+.badge-1 {
+    background-color: #fff;
+    border-radius: 100px;
+    border: none;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    height: 2rem;
+    width: fit-content;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+.badge-2 {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    height: 2rem;
+    width: fit-content;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+.badge-1:hover, .badge-2:hover, .notification:hover, .profile:hover, .backward-btn:hover, .forward-btn:hover {
+    box-shadow: 0px 0px 8px white;
+}
+
+.notification , .profile {
+    border-radius: 50%;
+    margin: 0.5rem;
+    background-color: #02111b;
+    border: none;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.sticky-nav-option {
+    display: flex;
+    align-items: center;
+}
+
+
+.sticky-navbar {
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
