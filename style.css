@@ -140,6 +140,10 @@ a {
     padding: 0.5rem 0.75rem;
 }
 
+.category:hover {
+    opacity: 1;
+}
+
 .category form select option {
     background-color: #121212;
     color: white;
@@ -149,7 +153,6 @@ a {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.9rem;
-    cursor: pointer;
     border: none;
     outline: none;
 }
