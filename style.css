@@ -1,6 +1,5 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    
     background-color: black;
     color: white;
     overflow: hidden;
@@ -98,7 +97,7 @@ a {
     opacity: 0.7;
     padding: 0.5rem 0.75rem;
     width: 4rem;
-    font-size: 1.25rem;
+    font-size: 1.25rem;     
     justify-content: space-between;
 }
 
@@ -109,3 +108,49 @@ a {
 .icons i:hover {
     opacity: 1;
 }
+
+.playlist {
+    overflow: auto;
+}
+.playlist-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search{
+
+    line-height: 2.5rem;
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+}
+
+.search i {
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    margin-right:1rem ;
+    opacity: 0.7;
+}
+.search i:hover {
+    opacity: 1;
+}
+
+.category{
+    line-height: 2.5rem;
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+}
+
+.category form select option {
+    background-color: #121212;
+    color: white;
+}
+.category form select {
+    background-color: #121212;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
