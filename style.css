@@ -13,9 +13,8 @@ body {
 }
 
 .sidebar {
-    background-color: red;
     width: 340px;
-    /* background-color: black; */
+    background-color: black;
     border-radius: 1rem; /*16px*/
 }
 
@@ -96,7 +95,6 @@ a {
 
 .icons {
     display: flex;
-    line-height: 2.5rem;
     opacity: 0.7;
     padding: 0.5rem 0.75rem;
     width: 4rem;
@@ -104,11 +102,10 @@ a {
     justify-content: space-between;
 }
 
-.icons div i {
+.icons i {
     opacity: 0.7;
-    
 }
 
-.icons div i:hover {
+.icons i:hover {
     opacity: 1;
 }
