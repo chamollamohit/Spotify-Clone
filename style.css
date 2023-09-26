@@ -31,7 +31,7 @@ body {
     bottom: 0px;
     width: 100%;
     height: 72px;
-    display: none;
+    display: flex;
     background-color: black;
 }
 
@@ -260,6 +260,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
 }
 
 .card-playlist {
@@ -362,4 +363,73 @@ a {
 .card-info {
     font-size: 0.75rem;
     opacity: 0.8;
+}
+
+.footer {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121212;
+}
+
+.line {
+    width: 95%;
+    height: 30%;
+    border-top:1px solid;
+    display: flex;  
+    justify-content: space-between;
+}
+
+.line a {
+    margin :1.2rem;
+}
+
+.player-info {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    height: 100%;
+    width: 25%;
+}
+.player-thumbnail img {
+    height: 3.5rem;
+    width: 3.5rem;
+    /* left: 1rem; */
+}
+
+.song-name {
+    margin: 0px 0px 0px 1rem;
+    font-size: 1rem;
+}
+.singer-name {
+    margin: 0.5rem 0px 0px 1rem;
+    font-size: 0.7rem;
+}
+.song-like {
+    margin-left: 1.5rem;
+}
+
+.player {
+    width: 50%;
+    /* display: flex; */
+}
+
+.player-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.player-control-icon {
+    height: 1rem;
+    margin-right: 2rem;
+    opacity: 0.7;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.player-control-icon:hover {
+    opacity: 1;
 }
